@@ -20,8 +20,9 @@ public class StandbyTime : MonoBehaviour
         if (isTimerRunning)
         {
             timer += Time.deltaTime;
+            //Debug.Log(timer);
             // 如果计时器超过设置的待机时间，则触发事件并停止计时器
-            if (timer >= 300)//【读取UdpConfig.standbyTime】
+            if (timer >= 300)//【读取UdpConfig.standbyTime】【300是秒】
             {
                 isTimerRunning = false;
                 EventManager.TriggerStandbyHandler();

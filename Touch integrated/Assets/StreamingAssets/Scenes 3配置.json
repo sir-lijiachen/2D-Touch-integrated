@@ -1,0 +1,83 @@
+[
+  {
+    "button": "Electric Rocket Energy",
+    "action": "Fade In",
+    "startPosX": 0,
+    "startPosY": 130,
+    "endPosX": 0,
+    "endPosY": 130,
+    "delay": 0.2
+  },
+  {
+    "button": "Electric Rocket Energy",
+    "action": "Move",
+    "startPosX": -1400,
+    "startPosY": 0.0,
+    "endPosX": -645,
+    "endPosY": -65,
+    "delay": 0.4
+  },
+  {
+    "button": "Electric Rocket Energy",
+    "action": "Appear",
+    "startPosX": -50,
+    "startPosY": -115,
+    "endPosX": -50,
+    "endPosY": -115,
+    "delay": 0.6
+  },
+  {
+    "button": "Electric Rocket Energy",
+    "action": "Move",
+    "startPosX": 1450,
+    "startPosY": 0.0,
+    "endPosX": 595,
+    "endPosY": -65,
+    "delay": 0.8
+  },
+  {
+    "button": "Special type",
+    "action": "Move",
+    "startPosX": -1400,
+    "startPosY": 80,
+    "endPosX": -505,
+    "endPosY": 80,
+    "delay": 0.2
+  },
+  {
+    "button": "Special type",
+    "action": "Move",
+    "startPosX": -1500,
+    "startPosY": -195,
+    "endPosX": -595,
+    "endPosY": -195,
+    "delay": 0.4
+  },
+  {
+    "button": "Special type",
+    "action": "Appear",
+    "startPosX": 60,
+    "startPosY": -50,
+    "endPosX": 60,
+    "endPosY": -50,
+    "delay": 0.6
+  },
+  {
+    "button": "Special type",
+    "action": "Move",
+    "startPosX": 1300,
+    "startPosY": 80,
+    "endPosX": 560,
+    "endPosY": 80,
+    "delay": 0.8
+  },
+  {
+    "button": "Special type",
+    "action": "Move",
+    "startPosX": 1400,
+    "startPosY": -110,
+    "endPosX": 660,
+    "endPosY": -110,
+    "delay": 1
+  }
+]
