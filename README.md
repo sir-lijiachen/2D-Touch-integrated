@@ -40,7 +40,7 @@ List<ReadJSONAttribute> currentAttributes = ReadJSON.imgAtbArray.FindAll(attr =>
 
 - ContentPage4前半段是为翻页操作，后面LoadContent用于创建，并加载图片操作.
 
-## Scene 4 动画执行
+## Scene 5 动画执行
 **功能1：利用Tweening，进行图片的平移灯操作**
 **功能2：利用Tweening，进行数字增长操作**  
 **配置：安装DOTween。**  
