@@ -64,6 +64,11 @@
     <Compile Include="Assets\Script\Scenes 2\ImageAttribute.cs" />
     <Compile Include="Assets\Script\Scenes 3\ReadJSON.cs" />
     <Compile Include="Assets\Script\Scenes 3\ReadJSONAttribute.cs" />
+    <Compile Include="Assets\Script\Scenes 3\ContentPage3.cs" />
+    <Compile Include="Assets\Script\Scenes 2\ContentPage2.cs" />
+    <Compile Include="Assets\Script\Scenes 4\ContentPage4.cs" />
+    <Compile Include="Assets\Script\Scenes 5\ImageExecute.cs" />
+    <Compile Include="Assets\Script\Scenes 5\TextExecute.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />

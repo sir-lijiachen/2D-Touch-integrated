@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ReadJSONAttribute
 {
-    public string primaryButton; // 首按钮
-    public int secondaryButton; // 第二按钮
-    public int pageNumber; // 页码
+    public int index;
+    public string button; // 首按钮
+    public int pageNumber;
     public string action; // 动作
     public int startPosX; // 开始坐标x
     public int startPosY; // 开始坐标y

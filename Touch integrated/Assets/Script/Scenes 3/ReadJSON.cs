@@ -8,9 +8,9 @@ public class ReadJSON : MonoBehaviour
 {
     public static List<ReadJSONAttribute> imgAtbArray;
 
-    private void Start()
+    private void Awake()
     {
-        //【Header("005航空历史.json   需要改为自己的json文件名字")】
+        //【Header("Scenes 3配置.json   需要改为自己的json文件名字")】
         string configPath = Path.Combine(Application.streamingAssetsPath, "Scenes 3配置.json");
         if (File.Exists(configPath))
         {
@@ -22,7 +22,6 @@ public class ReadJSON : MonoBehaviour
             imgAtbArray = JsonMapper.ToObject<List<ReadJSONAttribute>>(jsonData);
         }
     }
-
     /// <summary>
     /// JSON中类型转换
     /// </summary>
